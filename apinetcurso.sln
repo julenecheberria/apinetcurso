@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33529.398
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apinetcurso", "apinetcurso\apinetcurso.csproj", "{21F06D05-39A5-482C-9E1D-1B23BD4B671A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apitest", "apitest\apitest.csproj", "{E4704EB8-9547-4450-9992-C2C61DC4B00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21F06D05-39A5-482C-9E1D-1B23BD4B671A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F06D05-39A5-482C-9E1D-1B23BD4B671A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F06D05-39A5-482C-9E1D-1B23BD4B671A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F06D05-39A5-482C-9E1D-1B23BD4B671A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4704EB8-9547-4450-9992-C2C61DC4B00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4704EB8-9547-4450-9992-C2C61DC4B00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4704EB8-9547-4450-9992-C2C61DC4B00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4704EB8-9547-4450-9992-C2C61DC4B00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A15E1D-862A-42DB-95EE-0A66F56B6470}
+	EndGlobalSection
+EndGlobal
