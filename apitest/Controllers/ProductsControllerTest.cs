@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ProductsApp.Controllers.Tests
 {
     [TestClass()]
-    public class AssemblyInfo
+    public class ProductsControllerTest
     {
         [TestMethod()]
         public void GetAllProductsTest()
