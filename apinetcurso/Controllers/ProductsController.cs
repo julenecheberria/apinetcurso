@@ -7,7 +7,7 @@ using System.Web.Http;
 using NUnit.Framework;
 //using NUnit3TestAdapter;
 
-namespace ProductsApp.Controllers
+namespace apinetcurso.Controllers
 {
     public class ProductsController : ApiController
     {

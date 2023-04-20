@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProductsApp.Controllers;
+using apinetcurso.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using apinetcurso.Models;
 
-namespace ProductsApp.Controllers.Tests
+namespace apitest.Controllers.Tests
 {
     [TestClass()]
     public class ProductsControllerTest
