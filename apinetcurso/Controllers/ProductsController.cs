@@ -7,7 +7,7 @@ using System.Web.Http;
 using NUnit.Framework;
 //using NUnit3TestAdapter;
 
-namespace ProductsApp.Controllers
+namespace apinetcurso.Controllers
 {
     public class ProductsController : ApiController
     {
@@ -15,7 +15,8 @@ namespace ProductsApp.Controllers
         {
             new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
             new Product { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Product { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M },
+            new Product { Id = 4, Name = "Puzzle", Category = "Toys", Price = 2 }
         };
 
         public IEnumerable<Product> GetAllProducts()
@@ -28,7 +29,7 @@ namespace ProductsApp.Controllers
             var product = products.FirstOrDefault((p) => p.Id == id);
             if (product == null)
             {
-                return NotFound()kk;
+                return NotFound();
             }
             return Ok(product);
         }
